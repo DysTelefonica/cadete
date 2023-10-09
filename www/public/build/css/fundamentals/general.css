@@ -1,0 +1,29 @@
+body{
+    line-height: 1;
+    overflow-x: hidden;
+    background-color: var(--white);
+    font-family: 'Telefonica-sans-regular';
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+
+}
+
+main{
+    display: block;
+    min-height: 800px;
+    width: 100%;
+    max-width: 1224px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.separador{
+    margin: 120px 0;
+}
+
+@media (max-width: 1224px){
+    main{ margin: 0 20px; }
+}

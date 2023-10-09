@@ -1,0 +1,260 @@
+.scroll-menu{
+    display: block;
+    right: 0;
+    top: calc(50% - 90px);
+    position: fixed;
+    z-index: 9999;
+    transition: .2s all ease-out;
+    border-radius: 20px 0 0 20px;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: var(--white);
+}
+
+.scroll-menu .box{
+    box-sizing: inherit;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    transition: all .2s ease-in;
+    border-bottom: 1px solid #f2f4ff;
+    background-color: var(--white);
+    text-align: center;
+    background-color: transparent;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+    padding-left: 25%;
+}
+
+.scroll-menu .box:hover{
+    background-color: var(--grey1);
+}
+
+.scroll-menu .box:first-child{
+    background-color: var(--blue);
+    border-radius: 20px 0 0 0;
+}
+
+.scroll-menu .box:last-child{
+    border-radius:  0 0 0 20px;
+}
+
+.scroll-menu .box a{
+    display: inherit;
+    text-align: center;
+    text-align: center;
+    background-color: transparent;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.scroll-menu .box svg{
+    height: 50%;
+    width: 50%;
+    max-height: 30px;
+    box-sizing: inherit;
+}
+
+.scroll_menu__window {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    animation-name: scroll_menu---open;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    background-color: var(--white);
+    will-change: transform, opacity;
+    background: var(--white);
+    z-index:99999;
+}
+
+.scroll_menu__window .scroll_menu__header{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 48px);
+    max-height: calc(100vh - 48px);
+    position: relative;
+    top: 0;
+    margin: 24px;    
+    box-sizing: border-box;
+}
+
+.scroll_menu__window .scroll_menu__header .scroll_menu__close{           
+    padding: 32px;
+}
+
+.scroll_menu__window .scroll_menu__header .scroll_menu__close button{
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 0px;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    transition: .3 ease all;
+}
+
+.scroll_menu__window .scroll_menu__header .scroll_menu__close button svg{
+    height: 24px;
+    width: 24px;
+    box-sizing: inherit;
+}
+
+.scroll_menu--close {
+    animation-name: dialog---close;
+}
+
+.scroll_menu__window .scroll_menu__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 48px);
+    height: calc(100vh);
+    margin: 24px;
+    text-decoration: none;
+}
+
+.scroll_menu__window .scroll_menu__content .scroll_menu__left{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+} 
+
+.scroll_menu__window .scroll_menu__content .scroll_menu__right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;    
+    width: 100%;
+    height: 100%;
+    border-left: solid 3px var(--blue);
+    text-decoration: none;
+}
+
+.scroll_menu__window .scroll_menu__content .scroll_menu__right ul.submenu{
+    display: none;
+}
+
+.scroll_menu__window .scroll_menu__content .scroll_menu__right ul.submenu.active{
+    display: block;
+}
+
+.scroll_menu__window .scroll_menu__content .scroll_menu__left ul li,
+.scroll_menu__window .scroll_menu__content .scroll_menu__right ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    width: 100%;
+    min-width: 340px;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.scroll_menu__window .scroll_menu__content .scroll_menu__left ul li a,
+.scroll_menu__window .scroll_menu__content .scroll_menu__right ul li a{
+    display: flex;
+    align-items: center;
+    min-width: 240px;
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: var(--grey9);
+}
+
+.scroll_menu__window .scroll_menu__content .scroll_menu__left ul li a .subtext,
+.scroll_menu__window .scroll_menu__content .scroll_menu__right ul li a .subtext{
+    color: var(--grey5);
+}
+
+.scroll_menu__window .scroll_menu__content .scroll_menu__left ul li a:hover,
+.scroll_menu__window .scroll_menu__content .scroll_menu__right ul li a:hover{
+    color: var(--blue);
+}
+
+.scroll_menu__window .scroll_menu__content .scroll_menu__left ul li a svg,
+.scroll_menu__window .scroll_menu__content .scroll_menu__right ul li a svg{
+    margin-right: 30px;    
+    height: 30px;
+    min-height: 30px;
+    width: 30px;
+    min-width: 30px;
+}
+
+.scroll_menu__window .scroll_menu__content .scroll_menu__left ul li a span,
+.scroll_menu__window .scroll_menu__content .scroll_menu__right ul li a span{
+    margin-right: 60px;
+}
+
+.scroll_menu__window .scroll_menu__content .scroll_menu__left ul li button{
+    display: block;    
+    padding: 0;
+    cursor: pointer;
+    border: none;    
+    width: 64px;
+    height: 50px;
+    border-left: 1px solid var(--grey3);
+    background-color: transparent;
+    margin-right: 0;
+}
+
+.scroll_menu__window .scroll_menu__content .scroll_menu__left ul li button svg{
+    height: 30px;
+    width: 30px;
+}
+    
+@keyframes dialog---open {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+@keyframes dialog---close {
+    from { opacity: 1 }
+    to { opacity: 0 }
+}
+
+@keyframes dialog__window---open {
+    from{
+        transform: translateY(-25px);
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        transform: scale(1);
+        opacity: 1;
+    }
+} 

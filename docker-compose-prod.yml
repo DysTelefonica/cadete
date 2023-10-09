@@ -1,0 +1,62 @@
+version: "3"
+
+services:
+  webserver:
+    build:
+      context: .
+      dockerfile: Dockerfile-prod
+    container_name: "cadete-webserver"
+    restart: "always"
+    ports:
+      - "80:80"
+      - "443:443"
+    links:
+      - database
+   
+    environment:
+      APACHE_DOCUMENT_ROOT: /var/www/html
+      PMA_PORT: 8080
+      MYSQL_ROOT_PASSWORD: 0Tf06171
+      MYSQL_USER: user
+      MYSQL_PASSWORD: PMU36r7PKDs/[8E9
+      HOST_MACHINE_MYSQL_PORT: 3306
+     
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+  database:
+    image: mysql:8.1
+    container_name: "cadete-db"
+    restart: "always"
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 0Tf06171
+      MYSQL_USER: user
+      MYSQL_PASSWORD: PMU36r7PKDs/[8E9
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: "cadete-phpmyadmin"
+    links:
+      - database
+    environment:
+      PMA_HOST: database
+      PMA_PORT: 3306
+      #PMA_USER: user
+      #PMA_PASSWORD: PMU36r7PKDs/[8E9
+      MYSQL_ROOT_PASSWORD: 0Tf06171
+      MYSQL_USER: user
+      MYSQL_PASSWORD: PMU36r7PKDs/[8E9
+      
+      
+    ports:
+      - "8080:80"
+      - "4443:443"
+    volumes:
+      - /sessions
+      - ./config/php/php.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
+
+volumes:
+  mysql-data:
+

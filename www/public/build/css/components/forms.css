@@ -1,0 +1,32 @@
+.form{
+    display: block;
+    width: auto;
+    max-width: 1224px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 0 0 18px 0;
+}
+
+.form .form__two{
+    display: grid;
+    width: 100%;
+    max-width: 1224px;
+    margin: 0 auto 35px;
+    align-items: stretch;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    padding: 0;
+    margin-bottom: 40px;
+    grid-template-columns: 2fr 1fr;
+    gap: 140px;
+}
+
+.form .form__leftContent{
+    background-color: var(--grey1);
+    border-radius: 0 0 14px 0;
+}
+
+.form .form__rightContent{
+    background-color: var(--grey1);
+    border-radius: 0 0 14px 0;
+}

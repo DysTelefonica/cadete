@@ -1,0 +1,68 @@
+{
+    "name": "sergio/www",
+    "description": "Autoload para proyecto web de Telefónica DyS",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sergio García Montalvo",
+            "email": "sergio.garciamontalvo@telefonica.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "dompdf/dompdf": "^1.1",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+
+            "__COMENTARIO1__\\" : "CONTROLADORES",
+
+            "ControllerGeneral\\" :                     "./controllers/00",
+            "ControllerLog\\" :                         "./controllers/00/Logs",
+
+            "ControllerAnalisisContexto\\" :            "./controllers/04/AnalisisContexto",
+            "ControllerPartesInteresadas\\" :           "./controllers/04/PartesInteresadas",
+            "ControllerAlcance\\" :                     "./controllers/04/Alcance",
+            "ControllerProcesos\\" :                    "./controllers/04/Procesos",
+            "ControllerMision\\" :                      "./controllers/04/Mision",
+            
+            "ControllerLiderazgo\\" :                   "./controllers/05/Liderazgo",
+            "ControllerPolitica\\" :                    "./controllers/05/Politica",
+            "ControllerRoles\\" :                       "./controllers/05/Roles",
+
+            "ControllerRiesgosOportunidades\\" :        "./controllers/06/RiesgosOportunidades",
+            "ControllerProyectosMejora\\" :             "./controllers/06/ProyectosMejora",
+            "ControllerPlanesAccion\\" :                "./controllers/06/PlanesAccion",
+            "ControllerObjetivos\\" :                   "./controllers/06/Objetivos",
+
+            "ControllerComunicados\\" :                 "./controllers/07/Comunicados",
+            "ControllerInformacionDocumentada\\" :      "./controllers/07/InformacionDocumentada",
+            "ControllerDocumentacionExterna\\" :        "./controllers/07/DocumentacionExterna",
+
+            "ControllerRecursos\\" :                    "./controllers/07/Recursos",
+            
+            "__COMENTARIO2__\\" : "MODELOS",
+ 
+            "ModelGeneral\\" :                          "./models/00",
+
+            "ModelAnalisisContexto\\" :                 "./models/04/AnalisisContexto",
+            "ModelParteInteresada\\" :                  "./models/04/ParteInteresada",
+            "ModelAlcance\\" :                          "./models/04/Alcance",
+            "ModelProceso\\" :                          "./models/04/Proceso",
+            
+            "ModelPolitica\\" :                         "./models/05/Politica",
+            "ModelComite\\" :                           "./models/05/Comite",
+
+            "ModelRiesgoOportunidad\\" :                "./models/06/RiesgoOportunidad",
+            "ModelProyectoMejora\\" :                   "./models/06/ProyectoMejora",
+            "ModelPlanAccion\\" :                       "./models/06/PlanAccion",
+            "ModelObjetivo\\" :                         "./models/06/Objetivo",
+
+            "ModelComunicado\\" :                       "./models/07/Comunicado",
+            "ModelInformacionDocumentada\\" :           "./models/07/InformacionDocumentada",
+            "ModelDocumentacionExterna\\" :             "./models/07/DocumentacionExterna"
+        }
+    }
+}

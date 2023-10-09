@@ -1,0 +1,17 @@
+main.wrapper{
+    max-width: none;
+}
+
+.wrapper--two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh; 
+}
+
+.wrapper--two.login{
+    background: url("../../img/content/fondo_login.png");
+}
+
+.wrapper--two .right{
+    background-color: var(--grey2);
+}

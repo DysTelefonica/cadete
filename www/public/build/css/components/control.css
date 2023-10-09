@@ -1,0 +1,255 @@
+.control{
+    display: flex;
+    box-sizing: inherit;
+    padding: 0;
+    margin: 8px;
+    border: 0;
+    font: inherit;
+    width: 375px;
+    min-width: 96px;
+    opacity: 1;
+    cursor: text;
+    font-size: 14px;   
+    text-align: center;
+    align-items: center;
+    transition: .3 ease all;
+}   
+
+.control.hidden{
+    display: none;
+}
+
+.control.w100{
+    width: calc(100% - 14px);
+}
+
+.control svg.ico{
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+
+}
+
+.control .textbox{
+    height: 56px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--grey2);
+    border-radius: 4px;
+    position: relative;
+    background-color: var(--grey1);
+    background-color: var(--white);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-self: initial;
+    box-sizing: border-box;
+    display: inline-flex;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.control.h56 .textbox {
+    height: 56px;
+}
+
+.control.h102 .textbox {
+    height: 102px;
+}
+
+.control .textbox .label{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    cursor: default;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    transform-origin: 0px 0px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    line-height: 24px;
+    font-size: 16px;
+    transform: translateY(16px) scale(1);
+    transition: transform 150ms ease 0s, width 150ms ease 0s;
+    left: 12px;
+    width: calc((100%-24px)/1);
+    padding-right: 0px;
+    color: var(--grey5);      
+    
+}
+
+.control .textbox .valid + .label{
+    color: var(--blue);
+    transform: translateY(8px) scale(0.75);
+    height: 21.3333px;
+    box-sizing: border-box;
+}
+
+.helper__text,
+.control .helper__text{
+    display: block;
+    position: relative;
+    padding-left: 45px;
+    padding-right: 16px;
+    margin-top: -6px;
+    border: 0;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    color: var(--grey5);
+}
+
+.control .textbox input,
+.control .textbox textarea,
+.control .textbox select{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 12px 0 0 12px;
+    border: 0;
+    background-color: var(--white);
+    outline: 0;
+}
+
+.control.text .textbox input:focus + .label, 
+.control.text .textbox input:valid + .label{
+    color: var(--blue);
+    transform: translateY(8px) scale(0.75);
+    height: 21.3333px;
+    box-sizing: border-box;
+} 
+
+.control input.link{
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.control input.link:hover{
+    border-color: var(--blue);
+    background-color: var(--grey3);
+}
+
+.control.select .textbox select{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0; 
+    padding: 12px 0 0 8px;
+    border: 0;
+    background-color: var(--white);
+    outline: 0;
+}
+
+
+.control.date .textbox input[type="date"]{
+    appearance: none;
+    margin: 0;
+    padding: 12px 0 0 12px;
+    border: 0;
+    background-color: var(--white);
+}
+
+.control.date .textbox input[type="date"]::-webkit-calendar-picker-indicator{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    opacity: 0;
+}
+
+.control.date .textbox svg{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    pointer-events: none;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.control.date .textbox input:focus + .label, 
+.control.date .textbox input:valid + .label{
+    color: var(--blue);
+    transform: translateY(8px) scale(0.75);
+    height: 21.3333px;
+    box-sizing: border-box;
+} 
+
+.control.textarea .textbox{
+    height: 168px;
+}
+
+.control.textarea.h168 .textbox{
+    height: 168px;
+}
+
+.control.textarea.h100 .textbox{
+    height: 100px;
+}
+
+.control.textarea .textbox textarea{
+    width: calc(100% - 12px);
+    padding: 0 0 0 12px;
+    resize: none;
+    margin: 24px 0 0 0 ;
+}
+
+.control .textbox textarea:focus + .label, 
+.control .textbox textarea:valid + .label{
+    color: var(--blue);
+    transform: translateY(8px) scale(0.75);
+    height: 21.3333px;
+    box-sizing: border-box;
+}
+
+.control.file .textbox .input{
+    border: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer; 
+    font-size: 14px;
+    padding: 32px 12px;
+    background-color: var(--white);
+}
+
+.control.file input[type="file"]{
+    display: none;
+}
+
+.control.file input[type="file"]::-webkit-file-upload-button{
+    visibility: hidden;
+}
+
+.control.file .textbox svg{
+   position: absolute;
+   top: 16px;
+   right: 16px;
+   pointer-events: none;
+   width: 24px;
+   height: 24px;
+   cursor: pointer;
+}
+
+.control.file .textbox label.label{
+    color: var(--blue);
+    transform: translateY(8px) scale(0.75);
+    height: 21.3333px;
+    box-sizing: border-box;
+}
+
+.control.file .textbox label.input{
+    display: flex;
+    margin-right: auto;
+    height: 12px;
+    box-sizing: border-box;
+    transform: translateY(-4px)
+}

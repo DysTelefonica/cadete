@@ -1,0 +1,152 @@
+.block__table{
+    font: inherit;
+    font-size: 100%;
+    margin: 20px 0 60px 0;
+    border: 0;
+    width: calc(100%-15px);
+    max-width: 1224px;
+    border-radius: 0 0 18px 0;
+    display: block;
+}
+
+.block__table .table__header{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    padding: 0 0 8px 0;
+}
+
+.block__table .table__header .table__title{
+    text-align: left;
+}
+
+.block__table .table__header .table__title svg{
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+}
+
+.block__table .table__header .table__title h2{
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 0.83em;
+    box-sizing: inherit;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1.6rem;
+    color: var(--grey9);
+    font-family: 'Telefonica-sans-regular';
+    font-size: 2.375rem;
+    line-height: 3rem;
+}
+
+.block__table .table__header .table__button{
+    text-align: right;
+}
+
+.block__table .table__content{
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    box-sizing: inherit; 
+    padding: 0;
+    border: 0;
+    font: inherit;
+    letter-spacing: .01em;
+    margin: 0 0 1.5em;
+    font-family: 'Telefonica-sans-regular';
+    font-size: 1.0625rem;
+    line-height: 1.875rem;
+    text-align: justify;
+}
+
+.block__table .table__content .table__button{
+    text-align: right;
+}
+
+.block__table table{
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+
+}
+
+.block__table table thead{
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: left;
+}
+
+.block__table table thead th{
+    height: 40px;
+    min-height: 40px;
+    padding: 4px 16px;
+}
+
+.block__table table thead th:first-child{
+    border-radius: 4px 0 0 0 ;
+}
+
+.block__table table thead th:last-child{
+    border-radius: 0 4px 0 0 ;
+}
+
+.block__table table thead th.ocultarColumna{
+    display: none;
+}
+
+.block__table table tbody{
+    background-color: var(--grey1);   
+    cursor: pointer;     
+}
+
+.block__table table tbody tr{
+    height: 60px;
+    border-bottom: 1px solid var(--grey2);
+    transition: all .1s ease-out;  
+}
+
+.block__table table tbody tr:last-child{
+    border-bottom: none;
+}
+
+.block__table table tbody tr:hover{
+    background-color: var(--grey4);
+    color: var(--white);
+}
+
+.block__table table tbody tr td{
+    padding: 4px 16px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    min-height: 60px;
+    min-width: 100px;
+}
+
+.block__table table tbody tr td form{
+    margin: 8px;
+}
+
+.block__table table tbody tr td.ocultarColumna{
+    display: none;
+}
+
+.block__table table tbody tr td:first-child{
+    font-weight: bold;
+}
+
+.block__table table tbody tr td:last-child{
+    text-align: right;
+}
+
+.block__table table tbody tr:last-child td:first-child{
+    border-radius: 0 0 0 4px;
+}
+
+.block__table table tbody tr:last-child td:last-child{
+    border-radius: 0 0 4px 0;
+}

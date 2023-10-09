@@ -1,0 +1,54 @@
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 07 18:14:19.233637 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.20 OpenSSL/1.1.1n configured -- resuming normal operations
+[Sat Oct 07 18:14:19.234273 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 07 18:16:26.544036 2023] [authz_core:error] [pid 17] [client 172.24.0.1:50300] AH01630: client denied by server configuration: /var/www/html/public
+[Sat Oct 07 18:16:26.896907 2023] [authz_core:error] [pid 17] [client 172.24.0.1:50300] AH01630: client denied by server configuration: /var/www/html/public, referer: http://localhost/
+[Sat Oct 07 18:17:40.813782 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 07 18:17:43.017685 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.20 OpenSSL/1.1.1n configured -- resuming normal operations
+[Sat Oct 07 18:17:43.018410 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 07 18:18:25.889389 2023] [authz_core:error] [pid 17] [client 172.24.0.1:40418] AH01630: client denied by server configuration: /var/www/html/public
+[Sat Oct 07 18:18:26.010417 2023] [authz_core:error] [pid 17] [client 172.24.0.1:40418] AH01630: client denied by server configuration: /var/www/html/public, referer: http://localhost:443/
+[Sat Oct 07 18:20:04.962288 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 07 18:20:14.235979 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.20 OpenSSL/1.1.1n configured -- resuming normal operations
+[Sat Oct 07 18:20:14.236502 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 07 18:20:20.450295 2023] [authz_core:error] [pid 17] [client 172.18.0.1:56088] AH01630: client denied by server configuration: /var/www/html/public
+[Sat Oct 07 18:20:20.579793 2023] [authz_core:error] [pid 17] [client 172.18.0.1:56088] AH01630: client denied by server configuration: /var/www/html/public, referer: http://localhost/
+[Sat Oct 07 18:26:18.718695 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 07 18:26:22.180431 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.20 OpenSSL/1.1.1n configured -- resuming normal operations
+[Sat Oct 07 18:26:22.181468 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 08 07:11:27.862535 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.20 OpenSSL/1.1.1n configured -- resuming normal operations
+[Sun Oct 08 07:11:27.863507 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Oct 08 07:13:55.177976 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 08 07:42:45.360365 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.20 OpenSSL/1.1.1n configured -- resuming normal operations
+[Sun Oct 08 07:42:45.360875 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Oct 08 07:43:07.453622 2023] [authz_core:error] [pid 17] [client 172.18.0.1:52574] AH01630: client denied by server configuration: /var/www/html/public
+[Sun Oct 08 07:46:48.088582 2023] [authz_core:error] [pid 18] [client 172.18.0.1:40754] AH01630: client denied by server configuration: /var/www/html/public
+[Sun Oct 08 07:46:48.239106 2023] [authz_core:error] [pid 18] [client 172.18.0.1:40754] AH01630: client denied by server configuration: /var/www/html/public, referer: http://localhost/
+[Sun Oct 08 07:56:47.159683 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 08 07:57:17.340454 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.20 OpenSSL/1.1.1n configured -- resuming normal operations
+[Sun Oct 08 07:57:17.340953 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Oct 08 08:07:27.142471 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 08 08:07:52.616260 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.20 OpenSSL/1.1.1n configured -- resuming normal operations
+[Sun Oct 08 08:07:52.616779 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Oct 08 08:16:41.756666 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 08 08:34:05.303249 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.20 OpenSSL/1.1.1n configured -- resuming normal operations
+[Sun Oct 08 08:34:05.303801 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Oct 08 08:45:11.660587 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 09 07:01:20.121211 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.20 OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon Oct 09 07:01:20.121928 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Oct 09 07:02:45.200906 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully

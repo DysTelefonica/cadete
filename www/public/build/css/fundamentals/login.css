@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.container .left__section{
+    flex: 1;    
+    background: url("../../img/content_dys/juan_camarillo.png"), var(--blue);
+    background-size: cover;
+    opacity: .5;
+}
+
+.container .right__section{
+    flex: 1;
+    display: block;
+    background-color: var(--grey1);
+    padding: 50px;
+}
+.container .right__section .img{
+    box-sizing: border-box;
+    padding: 0px 0px 24px;
+}
+
+.container .right__section .img svg{
+    width: 64px;
+    height: 64px;
+    box-sizing: inherit;
+}
+
+.container .right__section .title{
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;    
+    box-sizing: border-box;
+    padding: 0px 0px 16px;
+}
+
+.container .right__section .title h2{
+    text-transform: inherit;
+    font-weight: 300;
+    color: var(--grey9);
+    text-decoration: inherit;
+    overflow-wrap: inherit;
+    line-height: 1.5rem;
+    font-size: 1.375rem;
+}
+
+.container .right__section .message{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.container .right__section .message span{
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    text-transform: inherit;
+    font-weight: 300;
+    color: --var(grey2);
+    text-decoration: inherit;
+    overflow-wrap: inherit;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.container .right__section .buttons{
+    margin: 0;
+    border: 0;    
+    box-sizing: border-box;
+    padding: 24px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px;
+    justify-content: center;
+}

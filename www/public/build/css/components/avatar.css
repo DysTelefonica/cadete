@@ -1,0 +1,17 @@
+.avatar{
+    width:28px; 
+    height:28px; 
+    margin-right: 10px; 
+    border-radius:50%;
+    object-fit:scale-down;
+}
+
+.avatar.small{
+    width:15px; 
+    height:15px; 
+    margin: 0;
+    margin-left: 3px;
+    margin-bottom: -3px;
+    border-radius:50%;
+    object-fit:scale-down;
+}

@@ -1,0 +1,411 @@
+:root{
+
+--ico__telefonica__b: url("../img/layout/b/logo_Telefonica_b.png");
+--ico__telefonica__w: url("../img/layout/w/logo_Telefonica_w.png");
+
+--ico__cadete__b: url("../img/layout/b/Telefonica_cadete.png");
+--ico__cadete__w: url("../img/layout/w/Telefonica_cadete.png");
+
+--ico__T__b: url("../img/layout/b/T.png");
+--ico__T__w: url("../img/layout/w/T.png");
+
+--ico__google__b: url("../img/layout/google.svg");
+
+--ico__ISO_9001_2015__b: url("../img/layout/ISO_9001_2015.svg");
+
+--ico__internet__b: url("../img/layout/b/Internet_2Regular.svg");
+--ico__internet__w: url("../img/layout/w/Internet_2Regular.svg");
+--ico__internet__d: url("../img/layout/d/Internet_2Regular.svg");
+--ico__internet__g: url("../img/layout/g/Internet_2Regular.svg");
+
+--ico__miembros__b: url("../img/layout/b/Miembros_2Regular.svg");
+--ico__miembros__w: url("../img/layout/w/Miembros_2Regular.svg");
+--ico__miembros__d: url("../img/layout/d/Miembros_2Regular.svg");
+--ico__miembros__g: url("../img/layout/g/Miembros_2Regular.svg");
+
+--ico__diana__b: url("../img/layout/b/Diana_2Regular.svg");
+--ico__diana__w: url("../img/layout/w/Diana_2Regular.svg");
+--ico__diana__d: url("../img/layout/d/Diana_2Regular.svg");
+--ico__diana__g: url("../img/layout/g/Diana_2Regular.svg");
+ 
+--ico__megusta__b: url("../img/layout/b/Me gusta like_2Regular.svg");
+--ico__megusta__w: url("../img/layout/w/Me gusta like_2Regular.svg");
+--ico__megusta__d: url("../img/layout/d/Me gusta like_2Regular.svg");
+--ico__megusta__g: url("../img/layout/g/Me gusta like_2Regular.svg");
+
+--ico__serviciotecnico__b: url("../img/layout/b/Servicio tecnico_2Regular.svg");
+--ico__serviciotecnico__w: url("../img/layout/w/Servicio tecnico_2Regular.svg");
+--ico__serviciotecnico__d: url("../img/layout/d/Servicio tecnico_2Regular.svg");
+--ico__serviciotecnico__g: url("../img/layout/g/Servicio tecnico_2Regular.svg");
+
+--ico__podium__b: url("../img/layout/b/Podium _2Regular.svg");
+--ico__podium__w: url("../img/layout/w/Podium _2Regular.svg");
+--ico__podium__d: url("../img/layout/d/Podium _2Regular.svg");
+--ico__podium__g: url("../img/layout/g/Podium _2Regular.svg");
+
+--ico__lanzar__b: url("../img/layout/b/Lanzar_2Regular.svg");
+--ico__lanzar__w: url("../img/layout/w/Lanzar_2Regular.svg");
+--ico__lanzar__d: url("../img/layout/d/Lanzar_2Regular.svg");
+--ico__lanzar__g: url("../img/layout/g/Lanzar_2Regular.svg");
+
+--ico__hamburguesa__b: url("../img/layout/b/Menu_2Regular.svg");
+--ico__hamburguesa__w: url("../img/layout/w/Menu_2Regular.svg");
+--ico__hamburguesa__d: url("../img/layout/d/Menu_2Regular.svg");
+--ico__hamburguesa__g: url("../img/layout/g/Menu_2Regular.svg");
+
+--ico__usuario__b: url("../img/layout/b/Usuario_Micuenta_persona_2Regular.svg");
+--ico__usuario__w: url("../img/layout/w/Usuario_Micuenta_persona_2Regular.svg");
+--ico__usuario__d: url("../img/layout/d/Usuario_Micuenta_persona_2Regular.svg");
+--ico__usuario__g: url("../img/layout/g/Usuario_Micuenta_persona_2Regular.svg");
+
+--ico__puntos__b: url("../img/layout/b/3 Puntos más_1Light.svg");
+--ico__puntos__w: url("../img/layout/w/3 Puntos más_1Light.svg");
+--ico__puntos__d: url("../img/layout/d/3 Puntos más_1Light.svg");
+--ico__puntos__g: url("../img/layout/g/3 Puntos más_1Light.svg");
+
+--ico__flechaderecha__b: url("../img/layout/b/Flecha adelante_2Regular.svg");
+--ico__flechaderecha__w: url("../img/layout/w/Flecha adelante_2Regular.svg");
+--ico__flechaderecha__d: url("../img/layout/d/Flecha adelante_2Regular.svg");
+--ico__flechaderecha__g: url("../img/layout/g/Flecha adelante_2Regular.svg");
+ 
+--ico__anadirmas__b: url("../img/layout/b/Añadir mas _2regular.svg");
+--ico__anadirmas__w: url("../img/layout/w/Añadir mas _2regular.svg");
+--ico__anadirmas__d: url("../img/layout/d/Añadir mas _2regular.svg");
+--ico__anadirmas__g: url("../img/layout/g/Añadir mas _2regular.svg");
+
+--ico__blog__b: url("../img/layout/b/Blog_2Regular.svg");
+--ico__blog__w: url("../img/layout/w/Blog_2Regular.svg");
+--ico__blog__d: url("../img/layout/d/Blog_2Regular.svg");
+--ico__blog__g: url("../img/layout/g/Blog_2Regular.svg");
+
+--ico__ojo__b: url("../img/layout/b/Ver _2Regular.svg");
+--ico__ojo__w: url("../img/layout/w/Ver _2Regular.svg");
+--ico__ojo__d: url("../img/layout/d/Ver _2Regular.svg");
+--ico__ojo__g: url("../img/layout/g/Ver _2Regular.svg");
+
+--ico__papelera__b: url("../img/layout/b/Eliminar_papelera_2Regular.svg");
+--ico__papelera__w: url("../img/layout/w/Eliminar_papelera_2Regular.svg");
+--ico__papelera__d: url("../img/layout/d/Eliminar_papelera_2Regular.svg");
+--ico__papelera__g: url("../img/layout/g/Eliminar_papelera_2Regular.svg");
+
+--ico__lapicero__b: url("../img/layout/b/Lapiz boligrafo _1Light.svg");
+--ico__lapicero__w: url("../img/layout/w/Lapiz boligrafo _1Light.svg");
+--ico__lapicero__d: url("../img/layout/d/Lapiz boligrafo _1Light.svg");
+--ico__lapicero__g: url("../img/layout/g/Lapiz boligrafo _1Light.svg");
+
+--ico__datos__b: url("../img/layout/b/Datos_2Regular.svg");
+--ico__datos__w: url("../img/layout/w/Datos_2Regular.svg");
+--ico__datos__d: url("../img/layout/d/Datos_2Regular.svg");
+--ico__datos__g: url("../img/layout/g/Datos_2Regular.svg");
+ 
+--ico__intranet__b: url("../img/layout/b/Intranet_2Regular.svg");
+--ico__intranet__w: url("../img/layout/w/Intranet_2Regular.svg");
+--ico__intranet__d: url("../img/layout/d/Intranet_2Regular.svg");
+--ico__intranet__g: url("../img/layout/g/Intranet_2Regular.svg");
+
+--ico__calendario__b: url("../img/layout/b/Calendario_2Regular.svg");
+--ico__calendario__w: url("../img/layout/w/Calendario_2Regular.svg");
+--ico__calendario__d: url("../img/layout/d/Calendario_2Regular.svg");
+--ico__calendario__g: url("../img/layout/g/Calendario_2Regular.svg"); 
+
+--ico__adjuntar__b: url("../img/layout/b/Adjuntar_2Regular.svg");
+--ico__adjuntar__w: url("../img/layout/w/Adjuntar_2Regular.svg");
+--ico__adjuntar__d: url("../img/layout/d/Adjuntar_2Regular.svg");
+--ico__adjuntar__g: url("../img/layout/g/Adjuntar_2Regular.svg"); 
+
+--ico__conexiones__b: url("../img/layout/b/Conexiones_2Regular.svg");
+--ico__conexiones__w: url("../img/layout/w/Conexiones_2Regular.svg");
+--ico__conexiones__d: url("../img/layout/d/Conexiones_2Regular.svg");
+--ico__conexiones__g: url("../img/layout/g/Conexiones_2Regular.svg");
+
+--ico__discoduro__b: url("../img/layout/b/Disco duro_2Regular.svg");
+--ico__discoduro__w: url("../img/layout/w/Disco duro_2Regular.svg");
+--ico__discoduro__d: url("../img/layout/d/Disco duro_2Regular.svg");
+--ico__discoduro__g: url("../img/layout/g/Disco duro_2Regular.svg"); 
+
+--ico__presentacion__b: url("../img/layout/b/Presentacion_2regular.svg");
+--ico__presentacion__w: url("../img/layout/w/Presentacion_2regular.svg");
+--ico__presentacion__d: url("../img/layout/d/Presentacion_2regular.svg");
+--ico__presentacion__g: url("../img/layout/g/Presentacion_2regular.svg"); 
+
+--ico__documento__b: url("../img/layout/b/Factura_Plan_Documento_2Regular.svg");
+--ico__documento__w: url("../img/layout/w/Factura_Plan_Documento_2Regular.svg");
+--ico__documento__d: url("../img/layout/d/Factura_Plan_Documento_2Regular.svg");
+--ico__documento__g: url("../img/layout/g/Factura_Plan_Documento_2Regular.svg");
+
+--ico__exportar__b: url("../img/layout/b/Exportar_2Regular.svg");
+--ico__exportar__w: url("../img/layout/w/Exportar_2Regular.svg");
+--ico__exportar__d: url("../img/layout/d/Exportar_2Regular.svg");
+--ico__exportar__g: url("../img/layout/g/Exportar_2Regular.svg"); 
+
+--ico__rayo__b: url("../img/layout/b/Rayo _2Regular.svg");
+--ico__rayo__w: url("../img/layout/w/Rayo _2Regular.svg");
+--ico__rayo__d: url("../img/layout/d/Rayo _2Regular.svg");
+--ico__rayo__g: url("../img/layout/g/Rayo _2Regular.svg"); 
+
+--ico__cerrar__b: url("../img/layout/b/Cerrar_2Regular.svg");
+--ico__cerrar__w: url("../img/layout/w/Cerrar_2Regular.svg");
+--ico__cerrar__d: url("../img/layout/d/Cerrar_2Regular.svg");
+--ico__cerrar__g: url("../img/layout/g/Cerrar_2Regular.svg"); 
+
+--ico__alerta__b: url("../img/layout/b/Alerta_2Regular.svg");
+--ico__alerta__w: url("../img/layout/w/Alerta_2Regular.svg");
+--ico__alerta__d: url("../img/layout/d/Alerta_2Regular.svg");
+--ico__alerta__g: url("../img/layout/g/Alerta_2Regular.svg"); 
+
+--ico__progreso__b: url("../img/layout/b/Progreso _2Regular.svg");
+--ico__progreso__w: url("../img/layout/w/Progreso _2Regular.svg");
+--ico__progreso__d: url("../img/layout/d/Progreso _2Regular.svg");
+--ico__progreso__g: url("../img/layout/g/Progreso _2Regular.svg");
+
+--ico__basededatos__b: url("../img/layout/b/Base de datos_2Regular.svg");
+--ico__basededatos__w: url("../img/layout/w/Base de datos_2Regular.svg");
+--ico__basededatos__d: url("../img/layout/d/Base de datos_2Regular.svg");
+--ico__basededatos__g: url("../img/layout/g/Base de datos_2Regular.svg"); 
+
+--ico__buscar__b: url("../img/layout/b/Buscar_2Regular.svg");
+--ico__buscar__w: url("../img/layout/w/Buscar_2Regular.svg");
+--ico__buscar__d: url("../img/layout/d/Buscar_2Regular.svg");
+--ico__buscar__g: url("../img/layout/g/Buscar_2Regular.svg"); 
+
+--ico__certificado__b: url("../img/layout/b/Certificado_2Regular.svg");
+--ico__certificado__w: url("../img/layout/w/Certificado_2Regular.svg");
+--ico__certificado__d: url("../img/layout/d/Certificado_2Regular.svg");
+--ico__certificado__g: url("../img/layout/g/Certificado_2Regular.svg"); 
+
+--ico__equipo__b: url("../img/layout/b/Equipo _2Regular.svg");
+--ico__equipo__w: url("../img/layout/w/Equipo _2Regular.svg");
+--ico__equipo__d: url("../img/layout/d/Equipo _2Regular.svg");
+--ico__equipo__g: url("../img/layout/g/Equipo _2Regular.svg");
+
+--ico__pdf__b: url("../img/layout/b/Documento_Archivo PDF_2Regular.svg");
+--ico__pdf__w: url("../img/layout/w/Documento_Archivo PDF_2Regular.svg");
+--ico__pdf__d: url("../img/layout/d/Documento_Archivo PDF_2Regular.svg");
+--ico__pdf__g: url("../img/layout/g/Documento_Archivo PDF_2Regular.svg");
+
+--ico__xlsx__b: url("../img/layout/b/Documento_Archivo XLSX_2Regular.svg");
+--ico__xlsx__w: url("../img/layout/w/Documento_Archivo XLSX_2Regular.svg");
+--ico__xlsx__d: url("../img/layout/d/Documento_Archivo XLSX_2Regular.svg");
+--ico__xlsx__g: url("../img/layout/g/Documento_Archivo XLSX_2Regular.svg");
+
+--ico__imagen__b: url("../img/layout/b/Documento_Archivo imagen_2Regular.svg");
+--ico__imagen__w: url("../img/layout/w/Documento_Archivo imagen_2Regular.svg");
+--ico__imagen__d: url("../img/layout/d/Documento_Archivo imagen_2Regular.svg");
+--ico__imagen__g: url("../img/layout/g/Documento_Archivo imagen_2Regular.svg"); 
+
+--ico__zip__b: url("../img/layout/b/Documento_Archivo ZIP_2Regular.svg");
+--ico__zip__w: url("../img/layout/w/Documento_Archivo ZIP_2Regular.svg");
+--ico__zip__d: url("../img/layout/d/Documento_Archivo ZIP_2Regular.svg");
+--ico__zip__g: url("../img/layout/g/Documento_Archivo ZIP_2Regular.svg"); 
+
+--ico__target__b: url("../img/layout/b/Target _2Regular.svg");
+--ico__target__w: url("../img/layout/w/Target _2Regular.svg");
+--ico__target__d: url("../img/layout/d/Target _2Regular.svg");
+--ico__target__g: url("../img/layout/g/Target _2Regular.svg");
+
+--ico__museo__b: url("../img/layout/b/Museo_2Regular.svg");
+--ico__museo__w: url("../img/layout/w/Museo_2Regular.svg");
+--ico__museo__d: url("../img/layout/d/Museo_2Regular.svg");
+--ico__museo__g: url("../img/layout/g/Museo_2Regular.svg");
+
+--ico__bandera__b: url("../img/layout/b/Bandera_2Regular.svg");
+--ico__bandera__w: url("../img/layout/w/Bandera_2Regular.svg");
+--ico__bandera__d: url("../img/layout/d/Bandera_2Regular.svg");
+--ico__bandera__g: url("../img/layout/g/Bandera_2Regular.svg");
+
+--ico__callcenter__b: url("../img/layout/b/Call center_Atencion al cliente_2Regular.svg");
+--ico__callcenter__w: url("../img/layout/w/Call center_Atencion al cliente_2Regular.svg");
+--ico__callcenter__d: url("../img/layout/d/Call center_Atencion al cliente_2Regular.svg");
+--ico__callcenter__g: url("../img/layout/g/Call center_Atencion al cliente_2Regular.svg");
+
+--ico__cuidar__b: url("../img/layout/b/Cuidar_2Regular.svg");
+--ico__cuidar__w: url("../img/layout/w/Cuidar_2Regular.svg");
+--ico__cuidar__d: url("../img/layout/d/Cuidar_2Regular.svg");
+--ico__cuidar__g: url("../img/layout/g/Cuidar_2Regular.svg");
+
+--ico__error__b: url("../img/layout/b/Documento error_2Regular.svg");
+--ico__error__w: url("../img/layout/w/Documento error_2Regular.svg");
+--ico__error__d: url("../img/layout/d/Documento error_2Regular.svg");
+--ico__error__g: url("../img/layout/g/Documento error_2Regular.svg");
+
+--ico__noticias__b: url("../img/layout/b/Noticias_2Regular.svg");
+--ico__noticias__w: url("../img/layout/w/Noticias_2Regular.svg");
+--ico__noticias__d: url("../img/layout/d/Noticias_2Regular.svg");
+--ico__noticias__g: url("../img/layout/g/Noticias_2Regular.svg");
+
+--ico__teatro__b: url("../img/layout/b/Teatro _3Masa.svg");
+--ico__teatro__w: url("../img/layout/w/Teatro _3Masa.svg");
+--ico__teatro__d: url("../img/layout/d/Teatro _3Masa.svg");
+--ico__teatro__g: url("../img/layout/g/Teatro _3Masa.svg");
+
+--ico__rutarecorrido__b: url("../img/layout/b/Ruta recorrido_2Regular.svg");
+--ico__rutarecorrido__w: url("../img/layout/w/Ruta recorrido_2Regular.svg");
+--ico__rutarecorrido__d: url("../img/layout/d/Ruta recorrido_2Regular.svg");
+--ico__rutarecorrido__g: url("../img/layout/g/Ruta recorrido_2Regular.svg");
+
+--ico__version__b: url("../img/layout/b/Carpeta_encriptada_3Masa.svg");
+--ico__version__w: url("../img/layout/w/Carpeta_encriptada_3Masa.svg");
+--ico__version__d: url("../img/layout/d/Carpeta_encriptada_3Masa.svg");
+--ico__version__g: url("../img/layout/g/Carpeta_encriptada_3Masa.svg");
+
+--ico__proceso__b: url("../img/layout/b/Proceso cargando _3Masa.svg");
+--ico__proceso__w: url("../img/layout/w/Proceso cargando _3Masa.svg");
+--ico__proceso__d: url("../img/layout/d/Proceso cargando _3Masa.svg");
+--ico__proceso__g: url("../img/layout/g/Proceso cargando _3Masa.svg"); 
+ 
+--ico__velocidad__b: url("../img/layout/b/Velocidad RPM_2Regular.svg");
+--ico__velocidad__w: url("../img/layout/w/Velocidad RPM_2Regular.svg");
+--ico__velocidad__d: url("../img/layout/d/Velocidad RPM_2Regular.svg");
+--ico__velocidad__g: url("../img/layout/g/Velocidad RPM_2Regular.svg"); 
+
+--ico__premio__b: url("../img/layout/b/Premio primero ganador _2Regular.svg");
+--ico__premio__w: url("../img/layout/w/Premio primero ganador _2Regular.svg");
+--ico__premio__d: url("../img/layout/d/Premio primero ganador _2Regular.svg");
+--ico__premio__g: url("../img/layout/g/Premio primero ganador _2Regular.svg"); 
+
+--ico__copa__b: url("../img/layout/b/Copa_Premio_2Regular.svg");
+--ico__copa__w: url("../img/layout/w/Copa_Premio_2Regular.svg");
+--ico__copa__d: url("../img/layout/d/Copa_Premio_2Regular.svg");
+--ico__copa__g: url("../img/layout/g/Copa_Premio_2Regular.svg"); 
+
+--ico__chat__b: url("../img/layout/b/Chat_hablar_2Regular.svg");
+--ico__chat__w: url("../img/layout/w/Chat_hablar_2Regular.svg");
+--ico__chat__d: url("../img/layout/d/Chat_hablar_2Regular.svg");
+--ico__chat__g: url("../img/layout/g/Chat_hablar_2Regular.svg"); 
+
+--ico__encriptado__b: url("../img/layout/b/Documento encriptado_2Regular.svg");
+--ico__encriptado__w: url("../img/layout/w/Documento encriptado_2Regular.svg");
+--ico__encriptado__d: url("../img/layout/d/Documento encriptado_2Regular.svg");
+--ico__encriptado__g: url("../img/layout/g/Documento encriptado_2Regular.svg"); 
+
+--ico__foro__b: url("../img/layout/b/Foro_2Regular.svg");
+--ico__foro__w: url("../img/layout/w/Foro_2Regular.svg");
+--ico__foro__d: url("../img/layout/d/Foro_2Regular.svg");
+--ico__foro__g: url("../img/layout/g/Foro_2Regular.svg"); 
+
+--ico__mapa__b: url("../img/layout/b/Mapa plano_2Regular.svg");
+--ico__mapa__w: url("../img/layout/w/Mapa plano_2Regular.svg");
+--ico__mapa__d: url("../img/layout/d/Mapa plano_2Regular.svg");
+--ico__mapa__g: url("../img/layout/g/Mapa plano_2Regular.svg"); 
+
+--ico__huella__b: url("../img/layout/b/Huella_2Regular.svg");
+--ico__huella__w: url("../img/layout/w/Huella_2Regular.svg");
+--ico__huella__d: url("../img/layout/d/Huella_2Regular.svg");
+--ico__huella__g: url("../img/layout/g/Huella_2Regular.svg"); 
+
+--ico__refrescar__b: url("../img/layout/b/Refrescar recargar pagina_2Regular.svg");
+--ico__refrescar__w: url("../img/layout/w/Refrescar recargar pagina_2Regular.svg");
+--ico__refrescar__d: url("../img/layout/d/Refrescar recargar pagina_2Regular.svg");
+--ico__refrescar__g: url("../img/layout/g/Refrescar recargar pagina_2Regular.svg");
+
+--ico__edificio__b: url("../img/layout/b/Edificio_Casa_2Regular.svg");
+--ico__edificio__w: url("../img/layout/w/Edificio_Casa_2Regular.svg");
+--ico__edificio__d: url("../img/layout/d/Edificio_Casa_2Regular.svg");
+--ico__edificio__g: url("../img/layout/g/Edificio_Casa_2Regular.svg");
+
+--ico__correo__b: url("../img/layout/b/Mail correo_2Regular.svg");
+--ico__correo__w: url("../img/layout/w/Mail correo_2Regular.svg");
+--ico__correo__d: url("../img/layout/d/Mail correo_2Regular.svg");
+--ico__correo__g: url("../img/layout/g/Mail correo_2Regular.svg");
+
+--ico__puzzle__b: url("../img/layout/b/Puzzle _2Regular.svg");
+--ico__puzzle__w: url("../img/layout/w/Puzzle _2Regular.svg");
+--ico__puzzle__d: url("../img/layout/d/Puzzle _2Regular.svg");
+--ico__puzzle__g: url("../img/layout/g/Puzzle _2Regular.svg");
+
+--ico__cartera__b: url("../img/layout/b/Cartera _2Regular.svg");
+--ico__cartera__w: url("../img/layout/w/Cartera _2Regular.svg");
+--ico__cartera__d: url("../img/layout/d/Cartera _2Regular.svg");
+--ico__cartera__g: url("../img/layout/g/Cartera _2Regular.svg");
+
+--ico__candadocerrado__b: url("../img/layout/b/Seguridad_2Regular.svg.svg");
+--ico__candadocerrado__w: url("../img/layout/w/Seguridad_2Regular.svg.svg");
+--ico__candadocerrado__d: url("../img/layout/d/Seguridad_2Regular.svg.svg");
+--ico__candadocerrado__g: url("../img/layout/g/Seguridad_2Regular.svg.svg");
+
+--ico__candadoabierto__b: url("../img/layout/b/Candado abierto_2Regular.svg");
+--ico__candadoabierto__w: url("../img/layout/w/Candado abierto_2Regular.svg");
+--ico__candadoabierto__d: url("../img/layout/d/Candado abierto_2Regular.svg");
+--ico__candadoabierto__g: url("../img/layout/g/Candado abierto_2Regular.svg");
+
+--ico__tiempo__b: url("../img/layout/b/Tiempo _2Regular.svg");
+--ico__tiempo__w: url("../img/layout/w/Tiempo _2Regular.svg");
+--ico__tiempo__d: url("../img/layout/d/Tiempo _2Regular.svg");
+--ico__tiempo__g: url("../img/layout/g/Tiempo _2Regular.svg");
+
+--ico__atencioncliente__b: url("../img/layout/b/Atencion al cliente_Ayuda_2Regular.svg");
+--ico__atencioncliente__w: url("../img/layout/w/Atencion al cliente_Ayuda_2Regular.svg");
+--ico__atencioncliente__d: url("../img/layout/d/Atencion al cliente_Ayuda_2Regular.svg");
+--ico__atencioncliente__g: url("../img/layout/g/Atencion al cliente_Ayuda_2Regular.svg");
+
+--ico__subidaDinero__b: url("../img/layout/b/Subida dinero_1Light.svg");
+--ico__subidaDinero__w: url("../img/layout/w/Subida dinero_1Light.svg");
+--ico__subidaDinero__d: url("../img/layout/d/Subida dinero_1Light.svg");
+--ico__subidaDinero__g: url("../img/layout/g/Subida dinero_1Light.svg");
+
+--ico__cerebro__b: url("../img/layout/b/Cerebro_2Regular.svg");
+--ico__cerebro__w: url("../img/layout/w/Cerebro_2Regular.svg");
+--ico__cerebro__d: url("../img/layout/d/Cerebro_2Regular.svg");
+--ico__cerebro__g: url("../img/layout/g/Cerebro_2Regular.svg");
+
+--ico__caja__b: url("../img/layout/b/Caja_2Regular.svg");
+--ico__caja__w: url("../img/layout/w/Caja_2Regular.svg");
+--ico__caja__d: url("../img/layout/d/Caja_2Regular.svg");
+--ico__caja__g: url("../img/layout/g/Caja_2Regular.svg");
+
+--ico__camion__b: url("../img/layout/b/Camion _2Regular.svg");
+--ico__camion__w: url("../img/layout/w/Camion _2Regular.svg");
+--ico__camion__d: url("../img/layout/d/Camion _2Regular.svg");
+--ico__camion__g: url("../img/layout/g/Camion _2Regular.svg");
+
+--ico__cancelar__b: url("../img/layout/b/Cancelar_2Regular.svg");
+--ico__cancelar__w: url("../img/layout/w/Cancelar_2Regular.svg");
+--ico__cancelar__d: url("../img/layout/d/Cancelar_2Regular.svg");
+--ico__cancelar__g: url("../img/layout/g/Cancelar_2Regular.svg");
+
+--ico__carrito__b: url("../img/layout/b/Carrito de la compra_2Regular.svg");
+--ico__carrito__w: url("../img/layout/w/Carrito de la compra_2Regular.svg");
+--ico__carrito__d: url("../img/layout/d/Carrito de la compra_2Regular.svg");
+--ico__carrito__g: url("../img/layout/g/Carrito de la compra_2Regular.svg");
+
+--ico__regla__b: url("../img/layout/b/Regla medir medida_2Regular.svg");
+--ico__regla__w: url("../img/layout/w/Regla medir medida_2Regular.svg");
+--ico__regla__d: url("../img/layout/d/Regla medir medida_2Regular.svg");
+--ico__regla__g: url("../img/layout/g/Regla medir medida_2Regular.svg");
+
+--ico__maletas_carro__b: url("../img/layout/b/Maletas carro _1Light.svg");
+--ico__maletas_carro__w: url("../img/layout/w/Maletas carro _1Light.svg");
+--ico__maletas_carro__d: url("../img/layout/d/Maletas carro _1Light.svg");
+--ico__maletas_carro__g: url("../img/layout/g/Maletas carro _1Light.svg");
+
+--ico__grupo__b: url("../img/layout/b/Grupo_2Regular.svg");
+--ico__grupo__w: url("../img/layout/w/Grupo_2Regular.svg");
+--ico__grupo__d: url("../img/layout/d/Grupo_2Regular.svg");
+--ico__grupo__g: url("../img/layout/g/Grupo_2Regular.svg");
+
+--ico__campana__b: url("../img/layout/b/bell_2Regular.svg");
+--ico__campana__w: url("../img/layout/w/bell_2Regular.svg");
+--ico__campana__d: url("../img/layout/d/bell_2Regular.svg");
+--ico__campana__g: url("../img/layout/g/bell_2Regular.svg");
+
+--ico__pregunta__b: url("../img/layout/b/Pregunta interrogacion _3Masa.svg");
+--ico__pregunta__w: url("../img/layout/w/Pregunta interrogacion _3Masa.svg");
+--ico__pregunta__d: url("../img/layout/d/Pregunta interrogacion _3Masa.svg");
+--ico__pregunta__g: url("../img/layout/g/Pregunta interrogacion _3Masa.svg");
+
+--ico__check__b: url("../img/layout/b/check_2Regular.svg");
+--ico__check__w: url("../img/layout/w/check_2Regular.svg");
+--ico__check__d: url("../img/layout/d/check_2Regular.svg");
+--ico__check__g: url("../img/layout/g/check_2Regular.svg");
+
+--ico__descargar__b: url("../img/layout/b/Descargar de la nube_3Masa.svg");
+--ico__descargar__w: url("../img/layout/w/Descargar de la nube_3Masa.svg");
+--ico__descargar__d: url("../img/layout/d/Descargar de la nube_3Masa.svg");
+--ico__descargar__g: url("../img/layout/g/Descargar de la nube_3Masa.svg");
+
+--ico__telefono__b: url("../img/layout/b/Telefono_Llamar_2Regular.svg");
+--ico__telefono__w: url("../img/layout/w/Telefono_Llamar_2Regular.svg");
+--ico__telefono__d: url("../img/layout/d/Telefono_Llamar_2Regular.svg");
+--ico__telefono__g: url("../img/layout/g/Telefono_Llamar_2Regular.svg");
+
+} 

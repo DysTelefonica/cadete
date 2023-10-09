@@ -1,0 +1,186 @@
+.dialog {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    width: 100%;
+    min-height: 0;
+    height: 100%;
+    background: rgba(49,50,53, 0.6);
+    opacity: 0;
+    animation-name: dialog---open;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    z-index:900;
+}
+
+.dialog--close {
+    animation-name: dialog---close;
+}
+
+.dialog .dialog__window {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    will-change: transform, opacity;
+    background: var(--white);
+    border-radius: 4px;
+    max-width: 50%;
+    max-height: calc(100%-32px);
+    z-index:901;
+}
+
+.dialog .dialog__window.dialog__auth{
+    min-width: 520px;
+    max-height: calc(100vh - 32px);
+}
+
+
+.dialog .dialog__window .dialog__close{
+    display: block;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 32px;
+}
+
+.dialog .dialog__window .dialog__close button{
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 0px;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+}
+
+.dialog .dialog__window .dialog__close button svg{
+    height: 24px;
+    width: 24px;
+    box-sizing: inherit;
+}
+
+.dialog .dialog__window .dialog__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 48px);
+    max-height: calc(100vh - 48px);
+    margin: auto;
+    padding: 96px 24px 24px;
+    box-sizing: border-box;
+}
+
+.dialog .dialog__window .dialog__content .dialog__img{
+    box-sizing: border-box;
+    padding: 0px 0px 24px;
+}
+
+.dialog .dialog__window .dialog__content .dialog__img svg{
+    width: 64px;
+    height: 64px;
+    box-sizing: inherit;
+}
+
+.dialog .dialog__window .dialog__content .dialog__title{
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    padding: 0px 0px 16px;
+}
+
+.dialog .dialog__window .dialog__content .dialog__title h2{
+    text-transform: inherit;
+    font-weight: 300;
+    color: var(--grey9);
+    text-decoration: inherit;
+    overflow-wrap: inherit;
+    line-height: 1.5rem;
+    font-size: 1.375rem;
+}
+
+.dialog .dialog__window .dialog__content .dialog__message{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.dialog .dialog__window .dialog__content .dialog__message span{
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    text-transform: inherit;
+    font-weight: 300;
+    color: --var(grey2);
+    text-decoration: inherit;
+    overflow-wrap: inherit;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.dialog .dialog__window .dialog__content .dialog__buttons{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    padding: 24px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px;
+    justify-content: center;
+}
+
+@keyframes dialog---open {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+@keyframes dialog---close {
+    from { opacity: 1 }
+    to { opacity: 0 }
+}
+
+@keyframes dialog__window---open {
+    from{
+        transform: translateY(-25px);
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        transform: scale(1);
+        opacity: 1;
+    }
+}

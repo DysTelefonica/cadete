@@ -1,0 +1,197 @@
+.adjunt_dialog {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    width: 100%;
+    min-height: 0;
+    height: 100%;
+    background: rgba(49,50,53, 0.6);
+    opacity: 0;
+    animation-name: adjunt_dialog---open;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    z-index:9999;
+}
+
+.adjunt_dialog--close {
+    animation-name: adjunt_dialog---close;
+}
+
+.adjunt_dialog .adjunt_dialog__window {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    will-change: transform, opacity;
+    background: var(--white);
+    border-radius: 4px;
+    max-width: 60%;
+    min-width: 60%;
+    max-height: calc(60%);
+    min-height: calc(60%);
+    z-index:10001;
+}
+
+.adjunt_dialog .adjunt_dialog__window.adjunt_dialog__auth{
+    min-width: 520px;
+    max-height: calc(100vh - 32px);
+}
+
+.adjunt_dialog .adjunt_dialog__window .adjunt_dialog__close{
+    display: block;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    position: absolute;
+    top: 0;
+    right: 0;        
+    padding: 32px;
+}
+
+.adjunt_dialog .adjunt_dialog__window .adjunt_dialog__close button{
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 0px;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    transition: .3 ease all;
+}
+
+.adjunt_dialog .adjunt_dialog__window .adjunt_dialog__close button svg{
+    height: 24px;
+    width: 24px;
+    box-sizing: inherit;
+}
+
+.adjunt_dialog .adjunt_dialog__window .adjunt_dialog__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 48px);
+    max-height: 100%;
+    margin: auto;
+    padding: 96px 24px 24px;
+    box-sizing: border-box;
+}
+
+.adjunt_dialog .adjunt_dialog__window .adjunt_dialog__content .resultado{
+    overflow-y: scroll;
+}
+
+/* IMAGEN */
+
+.adjunt_dialog .adjunt_dialog__window .adjunt_dialog__content .adjunt_dialog__img{
+    box-sizing: border-box;
+    padding: 0px 0px 24px;
+}
+
+.adjunt_dialog .adjunt_dialog__window .adjunt_dialog__content .adjunt_dialog__img svg{
+    width: 64px;
+    height: 64px;
+    box-sizing: inherit;
+}
+
+.adjunt_dialog .adjunt_dialog__window .adjunt_dialog__content .adjunt_dialog__title{
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;    
+    box-sizing: border-box;    
+}
+
+.adjunt_dialog .adjunt_dialog__window .adjunt_dialog__content .adjunt_dialog__title h2{
+    text-transform: inherit;
+    font-weight: 300;
+    color: var(--grey9);
+    text-decoration: inherit;
+    overflow-wrap: inherit;
+    line-height: 1.5rem;
+    font-size: 1.375rem;
+}
+
+/* PÁRRAFO */
+
+.adjunt_dialog .adjunt_dialog__window .adjunt_dialog__content .adjunt_dialog__message{
+    display: block;
+    margin: 0;
+    padding: 0px 0px 16px;
+    border: 0;
+    font: inherit;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.adjunt_dialog .adjunt_dialog__window .adjunt_dialog__content .adjunt_dialog__message span{
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    text-transform: inherit;
+    font-weight: 300;
+    color: var(--grey2);
+    text-decoration: inherit;
+    overflow-wrap: inherit;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+/* BOTONES */
+
+.adjunt_dialog .adjunt_dialog__window .adjunt_dialog__content .adjunt_dialog__buttons{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    padding: 24px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px;
+    justify-content: center;
+}
+
+@keyframes adjunt_dialog---open {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+@keyframes adjunt_dialog---close {
+    from { opacity: 1 }
+    to { opacity: 0 }
+}
+
+@keyframes adjunt_dialog__window---open {
+    from{
+        transform: translateY(-25px);
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        transform: scale(1);
+        opacity: 1;
+    }
+}

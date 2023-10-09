@@ -1,0 +1,62 @@
+.log__area{
+    width: calc(100%-15px);
+}
+
+.log__area .log__body{
+    width: 100%;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.log__area .log__body ul.log__list{
+    list-style: none;
+    display: block;
+}
+
+.log__area .log__body li.log__item {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 20px;      
+    border-bottom: 1px solid var(--blue);  
+}
+
+.log__area .log__body li.log__item .log__item__left{
+    align-self: center;
+    width: 20px;
+    margin-right: 18px;
+    font-weight: bold;
+}
+
+.log__area .log__body li.log__item .log__item__right{   
+    position: relative;    
+}
+
+.log__area .log__body li.log__item .log__item__right .log__item__head{
+    font-size: 1rem;
+    margin-bottom: -.4rem;
+}
+
+.log__area .log__body li.log__item .log__item__right .log__item__head .sangria{
+    margin-left: 25px;
+}
+
+.log__area .log__body li.log__item .log__item__right .log__item__head span.bold{
+    font-weight: bold;
+}
+
+.log__area .log__body li.log__item .log__item__right .log__item__head span.italic{
+    font-style: italic;
+}
+
+.log__area .log__body li.log__item .log__item__right .log__item__head span.red{
+    color: var(--grey6);
+}
+
+.log__area .log__body li.log__item .log__item__right .log__item__head span.green{
+    color: var(--blue);
+}
+
+.log__area .log__body li.log__item .log__item__right .log__item__body{
+    font-size: .8rem;
+}

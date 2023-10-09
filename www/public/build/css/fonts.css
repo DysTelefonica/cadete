@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Telefonica-sans-regular;
+    src: 
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Regular.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Hairline.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Hairline_Italic.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Italic.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Black_Italic.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Black.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Bold_Italic.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Bold.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_ExtraBold_Italic.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_ExtraBold.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_DemiBold_Italic.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Light.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Light_Italic.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_ExtraLight_Italic.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_ExtraLight.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Medium_Italic.woff2") format('woff2'),      
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Thin.woff2") format('woff2'),
+        url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Thin_Italic.woff2") format('woff2');
+
+}
+
+@font-face {
+    font-family: Telefonica-sans-extralight;
+    src: 
+            url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_ExtraLight.woff2") format('woff2');
+
+}
+
+@font-face {
+    font-family: Telefonica-sans-demibold;
+    src: 
+    url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_DemiBold.woff2") format('woff2');
+
+}
+
+@font-face {
+    font-family: Telefonica-sans-medium;
+    src: 
+    url("../fonts/Telefonica Sans/Web fonts/woff2/Telefonica_Sans_Medium.woff2") format('woff2');
+
+}
+
+body{
+    font-family: 'Telefonica-sans-regular', Tahoma;
+}

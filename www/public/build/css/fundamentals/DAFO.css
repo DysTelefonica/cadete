@@ -1,0 +1,31 @@
+.wp-block-columns-2{
+    position: relative;
+    margin-top: 20px;
+    max-width: 1224px;
+    margin: 15px;
+}
+
+.wp-block-columns-2 .wp-block-column .block.DAFO{
+    grid-template-rows: 40px auto;
+    display: block;
+}
+
+.wp-block-columns-2 .wp-block-column .block.DAFO .block__table{
+    margin: 20px 0 20px 0;
+}
+
+.wp-block-columns-2 .wp-block-column .block.DAFO table{
+    font-size: 80%;
+}
+
+.wp-block-columns-2 .wp-block-column .block.DAFO table tbody tr{
+    height: 60px;
+}
+
+.wp-block-columns-2 .wp-block-column .block.DAFO table tbody tr td:first-child{
+    min-width: 60px;
+}
+
+.wp-block-columns-2 .wp-block-column .block.DAFO table tbody tr td:last-child{
+    min-width: 125px;
+}

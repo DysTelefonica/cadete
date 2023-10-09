@@ -1,0 +1,60 @@
+nav.nav.toolbar{
+    max-width: 1224px;
+    margin: 0 auto;
+    display: block;
+    visibility: visible;
+    width: 100%;
+    height: auto;
+    padding: 40px 0 18px;
+}
+
+nav.toolbar .toolbar__list{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font-size: .6875rem;
+    text-transform: uppercase;
+    font-family: 'Telefonica-sans-regular';
+    display: block;
+    overflow: hidden;
+    list-style: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--blue);
+    align-items: center;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+nav.toolbar .toolbar__list .toolbar__separator{
+    height: 5px;
+    width: 100%;  
+    background-color: var(--grey2);
+    border-radius: 4px;
+}
+
+nav.toolbar .toolbar__list .toolbar__item{
+    margin-right: 5px;
+    letter-spacing: .05em;
+    width: 100%;
+}
+
+nav.toolbar .toolbar__list .toolbar__item svg{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+nav.toolbar .toolbar__list .toolbar__item a{
+    text-decoration: none;
+    color: var(--grey9);
+    font-size: .75rem;
+    line-height: .9375rem;
+    text-transform: uppercase;
+    transition: 1s ease all;
+}
+
+nav.toolbar .toolbar__list .toolbar__item a:hover{
+    color: black;
+    text-decoration: underline;
+}

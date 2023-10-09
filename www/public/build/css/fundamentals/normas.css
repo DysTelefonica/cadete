@@ -1,0 +1,43 @@
+.indice_normas{
+    display: block;
+    margin-left: 40px;
+}
+
+.indice_normas h2 a{
+    margin-top: 20px;
+    color: var(--grey9);
+    font-size: 1.25rem;
+}
+
+.indice_normas h3 a{
+    margin-left: 20px;
+    color: var(--grey7);
+    font-size: 1rem;
+}
+
+.indice_normas h4 a{
+    margin-left: 40px;
+    color: var(--grey5);
+    font-size: .75rem;
+}
+
+.indice_normas h5 a{
+    margin-left: 60px;
+    color: var(--grey4);
+    font-size: .75rem;
+}
+
+.indice_normas h6 a{
+    margin-left: 80px;
+    color: var(--grey3);
+    font-size: .75rem;
+}
+
+.indice_normas a{
+    text-decoration: none;
+    line-height: 1.25rem;
+}
+
+.indice_normas a:hover{
+    color: var(--blue);
+}

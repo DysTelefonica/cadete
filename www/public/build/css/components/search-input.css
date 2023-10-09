@@ -1,0 +1,26 @@
+.search-bar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.search-bar svg{
+    width: 36px;
+    min-width: 36px;
+    height: 36px;
+    overflow: visible;
+}
+
+.search-bar input.search-input{
+    border-radius: 4px;
+    width: 98%;
+    margin-left: 15px;
+    height: 20px;
+    padding: 8px 0 8px 20px;
+    background-color: var(--grey1);
+}
+
+.search-bar input.search-input:hover{
+    border-color: --var(blue);
+}

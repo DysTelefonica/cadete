@@ -1,0 +1,58 @@
+.breadcrumb{
+    max-width: 1224px;
+    margin: 0 auto;
+    display: block;
+    visibility: visible;
+    width: 100%;
+    height: auto;
+    padding: 10px 0 0px;
+}
+
+.breadcrumb .breadcrumb__list{
+    box-sizing: border-box;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+    font-size: .6875rem;
+    text-transform: uppercase;
+    font-family: 'Telefonica-sans-regular';
+    display: inline-flex;
+    overflow: hidden;
+    margin: 0;
+    list-style: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--blue);
+    align-items: center;
+}
+
+.breadcrumb .breadcrumb__list .breadcrumb__item{
+    display: inline;
+    margin-right: 5px;
+    letter-spacing: .05em;
+}
+
+.breadcrumb .breadcrumb__list .breadcrumb__item svg{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    transform: rotate(90deg);
+    }
+
+.breadcrumb .breadcrumb__list .breadcrumb__item a{
+    text-decoration: none;
+    color: var(--grey9);
+    font-size: .75rem;
+    line-height: .9375rem;
+    text-transform: uppercase;
+    transition: 1s ease all;
+}
+
+.breadcrumb .breadcrumb__list .breadcrumb__item.actual a{
+    font-weight: bold;
+}
+
+.breadcrumb .breadcrumb__list .breadcrumb__item a:hover{
+    color: black;
+    text-decoration: underline;
+}

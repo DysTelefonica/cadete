@@ -1,0 +1,37 @@
+.alarmas{
+    display: flex;
+    position: relative;
+    top: -6px;
+    right: 12px;
+}
+
+.alarmas .alarma{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin: 0px -1px;
+    color: var(--white);
+    font-size: 10px;
+    font-weight: bold;
+    box-shadow: 0px 0px 0px 1px;
+
+}
+
+.alarmas .alarma.alarma1{
+    display: flex;
+    background-color: var(--red3);
+}
+
+.alarmas .alarma.alarma2{
+    display: flex;
+    background-color: var(--yellow2);
+}
+
+.alarmas .alarma.alarma3{
+    display: flex;
+    background-color: var(--green4);
+}

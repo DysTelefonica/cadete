@@ -1,0 +1,8 @@
+.list--dots{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.list--dots li{
+    margin: 10px;
+}

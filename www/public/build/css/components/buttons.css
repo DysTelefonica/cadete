@@ -1,0 +1,149 @@
+.button{
+    font: inherit;
+    line-height: 1.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    vertical-align: bottom;
+    font-family: inherit;
+    user-select: none;
+    text-decoration: none;
+    padding: 10.5px 14.5px;
+    margin: 8px;
+    width: auto;
+    border: 1.5px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s ease all;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align:middle;
+    box-sizing: border-box;
+    color: var(--white);
+}
+
+.button.w100{
+    width: calc(100% - 15px);
+}
+
+.button.w50{
+    width: calc(50% - 15px);
+}
+
+.button svg{
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.button.button__secundary svg{
+    background-size: 80%;
+}
+
+.button.button__primary.button__regular{
+    margin: 8px;  
+}
+
+.button.button__primary.button__small{
+    width: auto;
+    margin: 0;
+    padding: 5px;
+}
+
+.button.button__secundary{
+    background-color: transparent;
+    border: 1px solid;
+}
+
+.button.button__primary.button__blue{background-color: var(--blue);}
+.button.button__primary.button__green{background-color: var(--green2);}
+.button.button__primary.button__red{background-color: var(--red2);}
+.button.button__primary.button__yellow{background-color: var(--yellow2);}
+.button.button__primary.button__grey{background-color: var(--grey4);}
+
+.button.button__primary.button__blue:hover{background-color: var(--blue2);}
+.button.button__primary.button__green:hover{background-color: var(--green1);}
+.button.button__primary.button__red:hover{background-color: var(--red1);}
+.button.button__primary.button__yellow:hover{background-color: var(--yellow1);}
+.button.button__primary.button__grey:hover{background-color: var(--grey2);}
+
+.button.button__secundary.button__blue{border-color: var(--blue);color: var(--blue);}
+.button.button__secundary.button__green{border-color: var(--green2);color: var(--green2);}
+.button.button__secundary.button__red{border-color: var(--red2);color: var(--red2);}
+
+.button.button__secundary.button__blue:hover{color: var(--blue2);}
+.button.button__secundary.button__green:hover{color: var(--green1);}
+.button.button__secundary.button__red:hover{color: var(--red1);}
+
+.button.button__link{
+    background-color: transparent;
+    display: inline-block;
+    width: auto;
+    padding: 6px;
+    font-weight: 500;
+    border: none;
+    overflow: hidden;
+    color: var(--blue);
+    box-sizing: border-box;
+    transition: .3s ease all;
+}
+
+.button.button__link:hover{
+    background-color: var(--blue4);
+}
+
+.newRelation__button{
+    display: flex;
+}
+
+.btns{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    z-index: 99;
+}
+
+.btns a{
+    background-color: var(--white);
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease all;
+}
+
+.btns a svg{
+    width: 40px;
+    height: 40px;
+    background-position: center;
+}
+
+.btns a:hover{
+    transform: scale(1.2);
+}
+
+.btns a.help__btn svg{
+    vertical-align:middle;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.btns a.up__btn {
+    background-color: var(--blue);
+    display: none;
+    opacity: 0;
+    transition: .3s ease all;
+}
+
+.btns a.up__btn svg{
+    transform: rotate(-90deg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}

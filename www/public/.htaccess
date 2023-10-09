@@ -1,0 +1,27 @@
+<IfModule mod_mime.c>
+    AddType text/css .css
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    
+    Options -MultiViews
+
+    # enable rewriting
+    RewriteEngine on
+    
+    DirectoryIndex index.php
+    RewriteCond $1 !^(index\.php|resources|robots\.txt)
+
+    ErrorDocument 404 404.php
+    AddType application/octet-stream .pdf
+
+    # don't rewrite files that exist in the file system
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    # don't rewrite directories that exist in the file system
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # rewrite the request to index.php
+    RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+</IfModule>
