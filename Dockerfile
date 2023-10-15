@@ -133,10 +133,12 @@ RUN a2enmod rewrite headers
     # Paso 6: Copiar tus archivos PHP y otros recursos al contenedor (dependiendo de tu proyecto)
 
     # Paso 7: Exponer el puerto del servidor web
-    EXPOSE 80
+   RUN rm -rf /usr/src/*
 
-# Paso 8: Comando para iniciar el servidor Apache cuando se ejecute el contenedor
-CMD ["apache2-foreground"]
+EXPOSE 80
+EXPOSE 443
+
+ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
 
 
 
